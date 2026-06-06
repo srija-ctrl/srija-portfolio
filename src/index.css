@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #080808;
+  color: #f7f3f0;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: #080808; }
+::-webkit-scrollbar-thumb { background: rgba(244,184,200,0.2); border-radius: 2px; }
+
+::selection { background: rgba(244,184,200,0.2); color: #f7f3f0; }
+
+a { color: inherit; }
+
+@keyframes blink    { 0%,100%{opacity:1} 50%{opacity:0} }
+@keyframes heroIn   { from{opacity:0;transform:translateY(40px)} to{opacity:1;transform:none} }
+@keyframes heroImg  { from{opacity:0;transform:scale(0.95)} to{opacity:1;transform:none} }
+@keyframes fadeUp   { from{opacity:0;transform:translateY(24px)} to{opacity:1;transform:none} }
+@keyframes mIn      { from{opacity:0;transform:scale(0.93) translateY(16px)} to{opacity:1;transform:none} }
+@keyframes pulse    { 0%,100%{transform:scale(1);opacity:0.5} 50%{transform:scale(1.8);opacity:0} }
+@keyframes borderGlow { 0%,100%{opacity:0.12} 50%{opacity:0.4} }
+@keyframes scanline { 0%{transform:translateY(-100%)} 100%{transform:translateY(100vh)} }
+@keyframes float0   { 0%,100%{transform:translateY(0) translateX(0);opacity:0.35} 50%{transform:translateY(-28px) translateX(14px);opacity:0.75} }
+@keyframes float1   { 0%,100%{transform:translateY(0) translateX(0);opacity:0.25} 50%{transform:translateY(-18px) translateX(-18px);opacity:0.65} }
+@keyframes float2   { 0%,100%{transform:translateY(0) translateX(0);opacity:0.4} 50%{transform:translateY(-36px) translateX(10px);opacity:0.85} }
