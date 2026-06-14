@@ -37,6 +37,17 @@ export default function Modal({ project, onClose }) {
             </div>
           ))}
 
+          {project.link && (
+            <div className={styles.block}>
+              <h4 className={styles.blockLabel}>Live Demo</h4>
+              <p className={styles.blockText}>
+                <a href={project.link} target="_blank" rel="noreferrer" style={{ color: "#f4b8c8", wordBreak: "break-all" }}>
+                  {project.link}
+                </a>
+              </p>
+            </div>
+          )}
+
           <div>
             <h4 className={styles.blockLabel}>Key Features</h4>
             <div className={styles.features}>

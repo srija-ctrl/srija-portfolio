@@ -61,6 +61,22 @@ export const projects = [
     features: ["Algorithm-driven shift allocation","Conflict resolution logic","Balanced workforce distribution","Modular maintainable codebase","Scalability-first architecture"],
     learning: "Building for maintainability means writing code for someone six months from now — including yourself. Deepened appreciation for clean abstractions and separation of concerns.",
   },
+  {
+    id: "career-compass-ai",
+    num: "04",
+    title: "Career Compass AI",
+    desc: "Developed Career Compass AI, an AI-powered career guidance platform using Python and Streamlit to provide personalized career recommendations and structured learning roadmaps.",
+    tags: ["Python","Streamlit","Generative AI","Multilingual"],
+    cat: "AI & ML",
+    filter: ["all","ai"],
+    featured: false,
+    date: "2026",
+    problem: "Students and early-career professionals often lack personalized, accessible career guidance tailored to their skills and aspirations.",
+    solution: "A career guidance platform that combines Google Gemini insights, skill-gap analysis, and localized support to recommend career pathways and learning roadmaps in English and Telugu.",
+    features: ["Personalized career recommendation engine","Google Gemini-powered context-aware insights","Local AI inference with Ollama and Llama 3","Multilingual support in English and Telugu","Generative AI-driven prototype development"],
+    learning: "Balancing AI automation with usability showed that accessibility and localization are key for career tools, especially when targeting diverse learners in a hackathon timeline.",
+    link: "https://career-compass-ai.streamlit.app/",
+  },
 ];
 
 export const education = [
